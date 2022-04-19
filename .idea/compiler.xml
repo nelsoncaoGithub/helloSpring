@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springAOP" />
         <module name="springAnnotaionConfig" />
-        <module name="proxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="proxy" target="1.11" />
+      <module name="spring1" target="1.11" />
       <module name="springAnnotaionConfig" target="1.11" />
+      <module name="springAOP" target="1.7" />
       <module name="springXmlConfig" target="1.11" />
     </bytecodeTargetLevel>
   </component>
