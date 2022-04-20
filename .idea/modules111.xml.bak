@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" group="proxy and modules" />
+      <module fileurl="file://$PROJECT_DIR$/springXmlConfig/spring1.iml" filepath="$PROJECT_DIR$/springXmlConfig/spring1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springAnnotationConfig/springAnnotaionConfig.iml" filepath="$PROJECT_DIR$/springAnnotationConfig/springAnnotaionConfig.iml" />
+    </modules>
+  </component>
+</project>

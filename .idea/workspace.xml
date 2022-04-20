@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c40f54f4-e0ba-4d2d-b14c-57492f2ae9e2" name="Default Changelist" comment="练习 spring 整合aspect的基本操作。">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspect/aspect.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspect/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspect/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c40f54f4-e0ba-4d2d-b14c-57492f2ae9e2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/proxy/target/" />
     <ignored path="$PROJECT_DIR$/springAnnotationConfig/target/" />
     <ignored path="$PROJECT_DIR$/springXmlConfig/target/" />
@@ -349,7 +334,7 @@
       <workItem from="1650358242105" duration="161000" />
       <workItem from="1650358589668" duration="240000" />
       <workItem from="1650358839481" duration="2246000" />
-      <workItem from="1650417239984" duration="3237000" />
+      <workItem from="1650417239984" duration="4495000" />
     </task>
     <task id="LOCAL-00001" summary="练习 spring aop的基本操作。">
       <created>1650360228412</created>
@@ -358,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650360228412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="练习 spring 整合aspect的基本操作。">
+      <created>1650421116702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650421116702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -394,7 +386,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7971000" />
+    <option name="totallyTimeSpent" value="9229000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -407,7 +399,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
