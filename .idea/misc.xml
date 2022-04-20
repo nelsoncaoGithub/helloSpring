@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/springAnnotationConfig/pom.xml" />
         <option value="$PROJECT_DIR$/springXmlConfig/pom.xml" />
         <option value="$PROJECT_DIR$/springAOP/pom.xml" />
+        <option value="$PROJECT_DIR$/aspect/pom.xml" />
       </list>
     </option>
   </component>

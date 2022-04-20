@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c40f54f4-e0ba-4d2d-b14c-57492f2ae9e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springAOP/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springAOP/springAOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/Aspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springAOP/src/main/resources/applicationContext.xml" afterDir="false" />
+    <list default="true" id="c40f54f4-e0ba-4d2d-b14c-57492f2ae9e2" name="Default Changelist" comment="练习 spring 整合aspect的基本操作。">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspect/aspect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspect/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspect/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/helloSpring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/helloSpring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/proxy/target/" />
     <ignored path="$PROJECT_DIR$/springAnnotationConfig/target/" />
     <ignored path="$PROJECT_DIR$/springXmlConfig/target/" />
     <ignored path="$PROJECT_DIR$/springAOP/target/" />
+    <ignored path="$PROJECT_DIR$/aspect/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,84 +33,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springAOP/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springAOP/src/main/resources/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/aspect/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="159">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyFactoryBean.java">
+        <entry file="file://$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/MyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="138" column="67" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="67" />
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springAOP/src/test/java/com/caotf/spring/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#235#236#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/ServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/ServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
               <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/Aspect.java">
+        <entry file="file://$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/MyAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="358">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aspect/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aspect/src/test/java/com/caotf/spring/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -118,8 +107,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -140,8 +129,16 @@
         <option value="$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/ServiceImpl.java" />
         <option value="$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/Aspect.java" />
         <option value="$PROJECT_DIR$/springAOP/src/test/java/com/caotf/spring/AppTest.java" />
-        <option value="$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/App.java" />
         <option value="$PROJECT_DIR$/springAOP/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/App.java" />
+        <option value="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/Service.java" />
+        <option value="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/Aspect.java" />
+        <option value="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/MyService.java" />
+        <option value="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/aspect/src/test/java/com/caotf/spring/AppTest.java" />
+        <option value="$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/MyAspect.java" />
+        <option value="$PROJECT_DIR$/aspect/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/aspect/pom.xml" />
       </list>
     </option>
   </component>
@@ -175,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,25 +182,25 @@
             <path>
               <item name="helloSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -213,7 +208,7 @@
             <path>
               <item name="helloSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -222,22 +217,14 @@
             <path>
               <item name="helloSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -245,7 +232,7 @@
             <path>
               <item name="helloSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -255,6 +242,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,6 +252,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -282,7 +277,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.shouldAnswerWithTrue">
+  <component name="RunManager" selected="JUnit.AppTest.shouldAnswerWithTrue (1)">
+    <configuration name="AppTest.shouldAnswerWithTrue (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aspect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caotf.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.caotf.spring" />
+      <option name="MAIN_CLASS_NAME" value="com.caotf.spring.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springAOP" />
       <extension name="coverage">
@@ -317,6 +328,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue (1)" />
         <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
         <item itemvalue="JUnit.AppTest.testBuy1" />
       </list>
@@ -336,8 +348,17 @@
       <workItem from="1650335699976" duration="732000" />
       <workItem from="1650358242105" duration="161000" />
       <workItem from="1650358589668" duration="240000" />
-      <workItem from="1650358839481" duration="1278000" />
+      <workItem from="1650358839481" duration="2246000" />
+      <workItem from="1650417239984" duration="3237000" />
     </task>
+    <task id="LOCAL-00001" summary="练习 spring aop的基本操作。">
+      <created>1650360228412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650360228412</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -353,26 +374,53 @@
     <history-entry file="AppTest_shouldAnswerWithTrue - 2022.04.19 at 17h 20m 38s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue_(1) - 2022.04.20 at 10h 12m 05s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue_(1) - 2022.04.20 at 10h 12m 37s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue_(1) - 2022.04.20 at 10h 13m 03s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue_(1) - 2022.04.20 at 10h 13m 49s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue_(1) - 2022.04.20 at 10h 14m 16s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue_(1) - 2022.04.20 at 10h 14m 26s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3766000" />
+    <option name="totallyTimeSpent" value="7971000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" order="9" />
@@ -392,6 +440,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="练习 spring aop的基本操作。" />
+    <MESSAGE value="练习 spring 整合aspect的基本操作。" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习 spring 整合aspect的基本操作。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/caotf/spring/App.java">
@@ -417,10 +470,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar!/org/springframework/aop/framework/ProxyFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springAOP/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="960">
           <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springAOP/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="138" column="67" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springAOP/src/test/java/com/caotf/spring/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -433,18 +514,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/ServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="120">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
             <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/Aspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="240">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -454,39 +535,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/caotf/spring/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="390">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springAOP/src/test/java/com/caotf/spring/AppTest.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-aspects/5.2.4.RELEASE/spring-aspects-5.2.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/software/InstallationPath/jdk-11.0.10/lib/src.zip!/java.base/java/lang/Void.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspect/src/test/java/com/caotf/spring/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar!/org/springframework/aop/framework/ProxyFactoryBean.class">
+    <entry file="file://$PROJECT_DIR$/aspect/src/main/java/com/caotf/spring/MyAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="358">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyFactoryBean.java">
+    <entry file="file://$PROJECT_DIR$/aspect/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="138" column="67" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="67" />
+        <state relative-caret-position="30">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springAOP/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/aspect/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="159">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>

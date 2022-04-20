@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/aspect/aspect.iml" filepath="$PROJECT_DIR$/aspect/aspect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/helloSpring.iml" filepath="$PROJECT_DIR$/.idea/helloSpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" group="proxy and modules" />
       <module fileurl="file://$PROJECT_DIR$/springXmlConfig/spring1.iml" filepath="$PROJECT_DIR$/springXmlConfig/spring1.iml" />
